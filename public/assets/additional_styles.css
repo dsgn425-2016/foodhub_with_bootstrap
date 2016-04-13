@@ -36,9 +36,6 @@ td {
   text-align: center;
 }
 
-.tagline {
-  font-size: 22px;
-}
 
 /* Buttons */
 
@@ -124,6 +121,7 @@ td {
 .li-footer {
   color: white;
   margin-bottom: 10px;
+  list-style: none;
 }
 
 /* My standard vertical spacing classes */
