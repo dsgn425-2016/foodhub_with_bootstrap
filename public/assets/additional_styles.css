@@ -4,7 +4,7 @@
 
 body {
   font-family: "Montserrat";
-  font-size: 16px;
+  font-size: 14px;
 }
 
 h1, h2, h3, h4 {
@@ -37,6 +37,8 @@ td {
   text-align: center;
 }
 
+
+
 .tagline {
   font-size: 22px;
 }
@@ -45,7 +47,8 @@ td {
 
 .primary-button {
   background-color: rgb(0,126,229);
-  width: 200px;
+  width: 100%;
+  display:block;
   color: white;
   border-radius: 5px;
   height: 40px;
@@ -54,6 +57,11 @@ td {
 
 .primary-button:hover {
   background-color: rgb(0, 65, 117);
+}
+
+.input-cell{
+  width: 100%;
+  display: block;
 }
 
 /* Navbar */
@@ -79,8 +87,14 @@ td {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
+
+
+}
+
+.who-delivers-text{
+    vertical-align: middle;
 }
 
 .sound-bites, .why-order {
@@ -125,6 +139,8 @@ td {
 .li-footer {
   color: white;
   margin-bottom: 10px;
+  text-align: left;
+
 }
 
 /* My standard vertical spacing classes */
