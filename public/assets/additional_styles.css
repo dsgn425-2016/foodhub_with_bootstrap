@@ -4,7 +4,6 @@
 
 body {
   font-family: "Montserrat";
-  font-size: 16px;
 }
 
 h1, h2, h3, h4 {
@@ -60,7 +59,6 @@ td {
 
 .navbar {
   background-color: rgb(246,52,64);
-  vertical-align: middle;
 }
 
 .navbar a {
@@ -79,8 +77,7 @@ td {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
 }
 
 .sound-bites, .why-order {
@@ -91,12 +88,13 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
 .footer {
   background-color: rgb(50, 50, 170);
+  color: white;
 }
 
 /* Miscellaneous */
