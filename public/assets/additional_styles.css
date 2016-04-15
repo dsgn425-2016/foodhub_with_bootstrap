@@ -11,6 +11,8 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
+p{font-size: 14px}
+
 /* Grid */
 
 .main-content {
@@ -79,11 +81,11 @@ td {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
-.sound-bites, .why-order {
+.sound-bites, .why-order, .sound-bite-content, .why-order-content {
   background-color: rgb(238, 238, 238);
 }
 
@@ -91,8 +93,8 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
 .footer {
@@ -125,6 +127,7 @@ td {
 .li-footer {
   color: white;
   margin-bottom: 10px;
+  font-size: 14px;
 }
 
 /* My standard vertical spacing classes */
