@@ -1,7 +1,5 @@
 /* Additional styles */
 
-/* Base typography */
-
 body {
   font-family: "Montserrat";
   font-size: 16px;
@@ -9,6 +7,14 @@ body {
 
 h1, h2, h3, h4 {
   font-weight: 700;
+}
+
+.navbar {
+  background-color: rgb(246,52,64);
+}
+
+.navbar a {
+  color: white !important;
 }
 
 /* Grid */
@@ -23,10 +29,19 @@ td {
   padding-right: 10px;
 }
 
-td {
-  border: thin red solid;
+.container-fluid{
+  padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
-
+.who-delivers{
+    background: url("images/main-hero.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 500px;
+    padding-top: 150px;
+}
 /* Utility */
 
 .round-image {
