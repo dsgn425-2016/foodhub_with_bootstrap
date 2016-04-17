@@ -10,6 +10,10 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
+h2{
+  font-size:30px;
+}
+
 /* Grid */
 
 .main-content {
@@ -137,8 +141,16 @@ td {
   padding-top: 20px;
 }
 
+.padding-inside-top-xsm {
+  padding-top: 40px;
+}
+
 .padding-inside-top-md {
   padding-top: 50px;
+}
+
+.padding-inside-top-lmd {
+  padding-top: 70px;
 }
 
 .padding-inside-top-lg {
