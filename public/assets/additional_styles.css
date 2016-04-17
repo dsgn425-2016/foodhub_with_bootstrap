@@ -11,50 +11,6 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
-/* Grid */
-
-.main-content {
-  width: 100%;
-}
-
-td {
-  vertical-align: top;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-td {
-  border: thin red solid;
-}
-
-/* Utility */
-
-.round-image {
-  border-radius: 50%;
-}
-
-.centered {
-  text-align: center;
-}
-
-.tagline {
-  font-size: 22px;
-}
-
-/* Buttons */
-
-.primary-button {
-  background-color: rgb(0,126,229);
-  width: 200px;
-  color: white;
-  border-radius: 5px;
-  height: 40px;
-  transition: all 0.2s ease-in-out;
-}
-
-.primary-button:hover {
-  background-color: rgb(0, 65, 117);
-}
 
 /* Navbar */
 
@@ -71,7 +27,7 @@ td {
 .navbar-brand {
   font-family: "Passion One";
   font-size: xx-large;
-}
+} 
 
 /* Backgrounds for each section of the page */
 
@@ -83,7 +39,7 @@ td {
   padding-top: 150px;
 }
 
-.sound-bites, .why-order {
+.soundbite-heading, .soundbite-content, .why-order-heading, .why-order-content {
   background-color: rgb(238, 238, 238);
 }
 
@@ -91,8 +47,8 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
 .footer {
