@@ -211,3 +211,11 @@ td {
   height: 500px;
   padding-top: 150px;
 }
+
+.download-apps {
+    background: url("images/download-hero.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 500px;
+    padding-top: 150px;
+}
