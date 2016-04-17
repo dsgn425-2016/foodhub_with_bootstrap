@@ -1,33 +1,14 @@
 /* Additional styles */
 
-/* Base typography */
-
+/* general */
 body {
   font-family: "Montserrat";
-  font-size: 16px;
+  font: 16pt;
 }
 
 h1, h2, h3, h4 {
   font-weight: 700;
 }
-
-/* Grid */
-
-.main-content {
-  width: 100%;
-}
-
-td {
-  vertical-align: top;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-td {
-  border: thin red solid;
-}
-
-/* Utility */
 
 .round-image {
   border-radius: 50%;
@@ -41,6 +22,17 @@ td {
   font-size: 22px;
 }
 
+.spotlight-image {
+  width: 200px;
+}
+
+.user-image {
+  width: 50px;
+}
+
+.store-badge {
+  width: 200px;
+}
 /* Buttons */
 
 .primary-button {
@@ -73,14 +65,14 @@ td {
   font-size: xx-large;
 }
 
-/* Backgrounds for each section of the page */
+/* Backgrounds */
 
 .who-delivers {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
 .sound-bites, .why-order {
@@ -91,38 +83,24 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
-.footer {
+footer {
   background-color: rgb(50, 50, 170);
-}
-
-/* Miscellaneous */
-
-.spotlight-image {
-  width: 200px;
-}
-
-.user-image {
-  width: 50px;
-}
-
-.store-badge {
-  width: 200px;
 }
 
 /* Footer styles */
 
-.h4-footer  {
+footer h4 {
   color: white;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.li-footer {
+footer li {
   color: white;
   margin-bottom: 10px;
 }
