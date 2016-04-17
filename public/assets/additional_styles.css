@@ -4,7 +4,6 @@
 
 body {
   font-family: "Montserrat";
-  font-size: 16px;
 }
 
 h1, h2, h3, h4 {
@@ -60,7 +59,6 @@ td {
 
 .navbar {
   background-color: rgb(246,52,64);
-  vertical-align: middle;
 }
 
 .navbar a {
@@ -75,27 +73,27 @@ td {
 
 /* Backgrounds for each section of the page */
 
-.who-delivers {
+.R_who_delivers_hero {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
-.sound-bites, .why-order {
+.R_sound_bites, .R_sound_bites_content, .R_why_order, .R_why_order_content {
   background-color: rgb(238, 238, 238);
 }
 
-.download-apps {
+.R_download_apps {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
-.footer {
+.R_footer {
   background-color: rgb(50, 50, 170);
 }
 
