@@ -4,13 +4,19 @@
 
 body {
   font-family: "Montserrat";
-  font-size: 16px;
 }
 
 h1, h2, h3, h4 {
   font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
-
+.h4-how-to{
+  margin-top: 10px;
+}
+.connect{
+  margin-top: 0px;
+}
 /* Grid */
 
 .main-content {
@@ -38,7 +44,8 @@ td {
 }
 
 .tagline {
-  font-size: 22px;
+  font-size: 21px;
+  margin-bottom: 20px;
 }
 
 /* Buttons */
@@ -72,18 +79,17 @@ td {
   font-family: "Passion One";
   font-size: xx-large;
 }
-
-/* Backgrounds for each section of the page */
+ /* Backgrounds for each section of the page */
 
 .who-delivers {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
-.sound-bites, .why-order {
+.sound-bites-heading, .sound-bites-content, .why-order-heading, .why-order-content {
   background-color: rgb(238, 238, 238);
 }
 
@@ -91,8 +97,10 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
+  height: 500px;
   vertical-align: middle;
+  padding-top: 150px;
+
 }
 
 .footer {
@@ -119,12 +127,12 @@ td {
   color: white;
   font-size: 16px;
   font-weight: 700;
-  margin-bottom: 10px;
 }
 
 .li-footer {
   color: white;
   margin-bottom: 10px;
+
 }
 
 /* My standard vertical spacing classes */
