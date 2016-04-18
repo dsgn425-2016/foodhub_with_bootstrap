@@ -1,5 +1,3 @@
-/* Additional styles */
-
 /* Base typography */
 
 body {
@@ -114,6 +112,11 @@ td {
 }
 
 /* Footer styles */
+
+footer {
+  background-color: rgb(50, 50, 170);
+  color: white;
+}
 
 .h4-footer  {
   color: white;
