@@ -4,11 +4,18 @@
 
 body {
   font-family: "Montserrat";
-  font-size: 16px;
-}
+  }
 
 h1, h2, h3, h4 {
   font-weight: 700;
+}
+
+.labelhack {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 /* Grid */
@@ -79,11 +86,11 @@ td {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+    padding-top: 150px;
 }
 
-.sound-bites, .why-order {
+.sound-bites-heading, .sound-bites-content, .why-order-heading, .why-order-content {
   background-color: rgb(238, 238, 238);
 }
 
@@ -91,8 +98,8 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
 .footer {
