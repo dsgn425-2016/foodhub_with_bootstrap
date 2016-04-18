@@ -27,6 +27,12 @@ td {
   border: thin red solid;
 }
 
+.sb-photo{
+  display: table-cell;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
 /* Utility */
 
 .round-image {
