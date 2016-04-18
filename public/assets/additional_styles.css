@@ -1,71 +1,19 @@
 /* Additional styles */
 
-/* Base typography */
-
 body {
   font-family: "Montserrat";
-  font-size: 16px;
+}
+
+.navbar {
+  background-color: rgb(246,52,64);
 }
 
 h1, h2, h3, h4 {
   font-weight: 700;
 }
 
-/* Grid */
-
-.main-content {
-  width: 100%;
-}
-
-td {
-  vertical-align: top;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-td {
-  border: thin red solid;
-}
-
-/* Utility */
-
-.round-image {
-  border-radius: 50%;
-}
-
-.centered {
-  text-align: center;
-}
-
-.tagline {
-  font-size: 22px;
-}
-
-/* Buttons */
-
-.primary-button {
-  background-color: rgb(0,126,229);
-  width: 200px;
-  color: white;
-  border-radius: 5px;
-  height: 40px;
-  transition: all 0.2s ease-in-out;
-}
-
-.primary-button:hover {
-  background-color: rgb(0, 65, 117);
-}
-
-/* Navbar */
-
-.navbar {
-  background-color: rgb(246,52,64);
-  vertical-align: middle;
-}
-
 .navbar a {
   color: white !important;
-  text-decoration: none;
 }
 
 .navbar-brand {
@@ -79,8 +27,8 @@ td {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
 .sound-bites, .why-order {
@@ -91,11 +39,15 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
-.footer {
+footer {
+  background-color: rgb(50, 50, 170);
+}
+
+.blue {
   background-color: rgb(50, 50, 170);
 }
 
@@ -115,14 +67,14 @@ td {
 
 /* Footer styles */
 
-.h4-footer  {
+footer h4 {
   color: white;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.li-footer {
+footer li {
   color: white;
   margin-bottom: 10px;
 }
