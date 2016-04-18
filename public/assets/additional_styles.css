@@ -4,7 +4,8 @@
 
 body {
   font-family: "Montserrat";
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 1.43;
 }
 
 h1, h2, h3, h4 {
@@ -26,7 +27,6 @@ td {
 td {
   border: thin red solid;
 }
-
 /* Utility */
 
 .round-image {
@@ -125,6 +125,7 @@ td {
 .li-footer {
   color: white;
   margin-bottom: 10px;
+  display: list-item;
 }
 
 /* My standard vertical spacing classes */
