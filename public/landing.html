@@ -8,7 +8,7 @@
   <meta charset="utf-8">
 
   <!-- Connect to Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css"> -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
 
   <!-- Connect to Font Awesome CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -32,53 +32,52 @@
 </head>
 
 <body>
-  <table class="main-content">
-    <tr>
-      <td colspan="10" class="navbar">
-        <a class="navbar-brand" href="https://www.google.com">
-          FOODHUB
-        </a>
-      </td>
-      <td class="navbar">
-        <a href="https://www.google.com">
-          Sign In
-        </a>
-      </td>
-      <td class="navbar">
-        <a href="https://www.google.com" class="btn btn-link">
-          <i class="fa fa-shopping-bag fa-lg"></i>
-        </a>
-      </td>
-    </tr>
 
-    <tr>
-      <td colspan="12" class="who-delivers centered">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">FOODHUB</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Sign In</a></li>
+          <li><a href=""><i class="fa fa-shopping-bag fa-lg"></i></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row who-delivers">
+      <div class="col-md-offset-3 col-md-6">
         <h2>
           Who delivers in your neighborhood?
         </h2>
 
         <form>
           <div class="form-group">
-            <label>
-              Enter your address below.
-            </label>
+            <label for="exampleInputEmail1">Enter your address below.</label>
 
             <div class="input-group">
-              <i class="fa fa-map-marker"></i>
-
-              <input type="text" placeholder="Street address, city, state">
+              <span class="input-group-addon" id="basic-addon1">
+                <i class="fa fa-map-marker"></i>
+              </span>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Street address, city, state">
             </div>
           </div>
-
-          <button type="submit" class="primary-button">
-            Find Food
-          </button>
+          <button type="submit" class="btn btn-primary btn-block">Find Food</button>
         </form>
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="12" class="centered">
+      </div>
+    </div>
+    <div class="row how-to-heading text-center padding-inside-top-sm padding-inside-bottom-sm">
+      <div class="col-xs-12">
         <h2>
           How to Foodhub
         </h2>
@@ -86,11 +85,10 @@
         <p>
           Ordering from your favorite restaurant is even easier than eating.
         </p>
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="4" class="centered">
+      </div>
+    </div>
+    <div class="row how-to-content text-center">
+      <div class="col-md-4 padding-inside-top-sm padding-inside-bottom-sm">
         <img src="assets/images/map.jpg" class="round-image spotlight-image margin-below-bottom-sm">
 
         <h4>
@@ -100,9 +98,8 @@
         <p>
           Browse menus from your favorite local restaurants.
         </p>
-      </td>
-
-      <td colspan="4" class="centered">
+      </div>
+      <div class="col-md-4">
         <img src="assets/images/menu.jpg" class="round-image spotlight-image margin-below-bottom-sm">
 
         <h4>
@@ -112,9 +109,8 @@
         <p>
           Select what you want to eat. Submit your order.
         </p>
-      </td>
-
-      <td colspan="4" class="centered">
+      </div>
+      <div class="col-md-4">
         <img src="assets/images/delivery.jpg" class="round-image spotlight-image margin-below-bottom-sm">
 
         <h4>
@@ -124,19 +120,17 @@
         <p>
           Get the door and enjoy your food!
         </p>
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="12" class="sound-bites centered">
+      </div>
+    </div>
+    <div class="row soundbites-heading text-center">
+      <div class="col-xs-12">
         <h2>
           Sound bites
         </h2>
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="3" class="sound-bites centered">
+      </div>
+    </div>
+    <div class="row soundbites-content">
+      <div class="col-md-3">
         <img src="assets/images/user-1.jpg" class="round-image user-image">
 
         <p>
@@ -146,9 +140,8 @@
         <h4>
           @xtinacousins
         </h4>
-      </td>
-
-      <td colspan="3" class="sound-bites centered">
+      </div>
+      <div class="col-md-3">
         <img src="assets/images/user-2.jpg" class="round-image user-image">
 
         <p>
@@ -158,9 +151,8 @@
         <h4>
           @udezekene
         </h4>
-      </td>
-
-      <td colspan="3" class="sound-bites centered">
+      </div>
+      <div class="col-md-3">
         <img src="assets/images/user-3.jpg" class="round-image user-image">
 
         <p>
@@ -170,9 +162,8 @@
         <h4>
           @adellecharles
         </h4>
-      </td>
-
-      <td colspan="3" class="sound-bites centered">
+      </div>
+      <div class="col-md-3">
         <img src="assets/images/user-4.jpg" class="round-image user-image">
 
         <p>
@@ -182,11 +173,10 @@
         <h4>
           @vista
         </h4>
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="12" class="download-apps centered">
+      </div>
+    </div>
+    <div class="row download-apps text-center">
+      <div class="col-md-offset-3 col-md-6">
         <h2>
           Download apps
         </h2>
@@ -198,69 +188,60 @@
         <img src="assets/images/app-store-badge.png" class="store-badge margin-below-bottom-xs">
 
         <img src="assets/images/google-play-badge.png" class="store-badge margin-below-bottom-xs">
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="12" class="why-order centered">
+      </div>
+    </div>
+    <div class="row why-order-heading text-center">
+      <div class="col-xs-12">
         <h2>Why order with Foodhub?</h2>
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="4" class="why-order centered">
+      </div>
+    </div>
+    <div class="row why-order-content text-center">
+      <div class="col-md-4">
         <img src="assets/images/gem.jpg" class="round-image spotlight-image margin-below-bottom-sm">
         <h4>Discover</h4>
         <p>
           We'll help you find hidden gems in your neighborhood.
         </p>
-      </td>
-
-      <td colspan="4" class="why-order centered">
+      </div>
+      <div class="col-md-4">
         <img src="assets/images/like.jpg" class="round-image spotlight-image margin-below-bottom-sm">
         <h4>Better</h4>
         <p>
           The more you use Foodhub, the better we are at making recommendations just for you.
         </p>
-      </td>
-
-      <td colspan="4" class="why-order centered">
+      </div>
+      <div class="col-md-4">
         <img src="assets/images/bite.jpg" class="round-image spotlight-image margin-below-bottom-sm">
         <h4>Food</h4>
         <p>
           Enjoy each bite all the more knowing your order supports local businesses.
         </p>
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="6" class="centered">
+      </div>
+    </div>
+    <div class="row about">
+      <div class="col-md-6 text-center">
         <h2>About Foodhub</h2>
-      </td>
-
-      <td colspan="6">
+      </div>
+      <div class="col-md-6">
         <p>Foodhub helps you find and order food from wherever you are. How it works: you type in an address, we tell you the restaurants that deliver to that locale as well as showing you droves of pickup restaurants near you. Want to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results accordingly. When you find what you're looking for, you can place your order online or by phone, free of charge. Oh, and we also give you access to reviews, coupons, special deals and a 24/7 customer care team that tracks each order and makes sure you get exactly what you want.</p>
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="3" class="footer">
+      </div>
+    </div>
+    <div class="row footer">
+      <div class="col-md-3">
         <h4 class="h4-footer">Sign up for special offers</h4>
 
         <form>
           <div class="form-group">
-            <input type="email" placeholder="Email">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
           </div>
-
           <div class="form-group">
-            <input type="number" placeholder="ZIP code">
+            <input type="number" class="form-control" id="exampleInputEmail1" placeholder="ZIP code">
           </div>
-
-          <button type="submit" class="primary-button">Send me treats</button>
+          <button type="submit" class="btn btn-primary btn-block">Send me treats</button>
         </form>
-      </td>
 
-      <td colspan="3" class="footer">
+      </div>
+      <div class="col-md-3">
         <h4 class="h4-footer">Get to know us</h4>
 
         <ul>
@@ -271,10 +252,8 @@
           <li class="li-footer">Investor relations</li>
           <li class="li-footer">News</li>
         </ul>
-      </td>
-
-      <td colspan="3" class="footer">
-
+      </div>
+      <div class="col-md-3">
         <h4 class="h4-footer">Help</h4>
 
         <ul>
@@ -290,10 +269,8 @@
           <li class="li-footer">Instagram</li>
           <li class="li-footer">YouTube</li>
         </ul>
-      </td>
-
-      <td colspan="3" class="footer">
-
+      </div>
+      <div class="col-md-3">
         <h4 class="h4-footer">Partner with us</h4>
 
         <ul>
@@ -301,10 +278,10 @@
           <li class="li-footer">For drivers</li>
           <li class="li-footer">For corporate accounts</li>
         </ul>
-      </td>
-    </tr>
+      </div>
+    </div>
+  </div>
 
-  </table>
 
 </body>
 </html>
