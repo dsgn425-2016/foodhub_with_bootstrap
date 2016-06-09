@@ -81,7 +81,7 @@ td {
   padding-top: 150px;
 }
 
-.sound-bites-heading .sound-bites-content, .why-order-heading .why-order-content {
+.sound-bites-heading, .sound-bites-content, .why-order-heading, .why-order-content {
   background-color: rgb(238, 238, 238);
 }
 
@@ -123,8 +123,14 @@ td {
 .li-footer {
   color: white;
   margin-bottom: 10px;
+  list-style: none;
 }
 
+.li-footer2 {
+  color: white;
+  margin-bottom: 10px;
+  list-style: none;
+}
 /* My standard vertical spacing classes */
 
 .padding-inside-top-xs {
